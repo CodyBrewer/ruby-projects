@@ -15,7 +15,7 @@ def stock_picker(stock_prices)
   # sort profits by thier value
   profits = profits.sort_by { | k, v| v }
   # return the days of the last entry in the profits hash
-  [profits[-1][0][0], profits[-1][0][1]]
+  p [profits[-1][0][0], profits[-1][0][1]]
 end
 
-puts stock_picker([17,3,6,9,15,8,6,1,10])
+stock_picker([17,3,6,9,15,8,6,1,10])

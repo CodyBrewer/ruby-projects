@@ -11,7 +11,7 @@ def substrings(string, dictionary)
     matches[word] = count unless count == 0
   end
   # return matches
-  matches
+  p matches
 end
 
-puts substrings("below", dictionary)
+substrings("below", dictionary)
