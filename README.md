@@ -7,3 +7,6 @@ These Projects are from [The Odin Project](https://theodinproject.com)'s Ruby Cu
 [caeaser_cipher](caeser_cipher.rb)
 [substrings](substrings.rb)
 [stock_picker](stock_picker.rb)
+
+## Sorting Algorithms
+[bubble_sort](bubble_sort.rb)
